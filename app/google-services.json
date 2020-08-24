@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "384547687735",
+    "firebase_url": "https://navigation-bar-b2e2c.firebaseio.com",
+    "project_id": "navigation-bar-b2e2c",
+    "storage_bucket": "navigation-bar-b2e2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384547687735:android:871409e01f8975efe39eb2",
+        "android_client_info": {
+          "package_name": "com.example.navigationbar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384547687735-00qh5t4n2j7ch0kj7tfahprkcqqsjq0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPr4I8ocn6jA-xK6IKBjS0sAZK9PgB6Bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384547687735-00qh5t4n2j7ch0kj7tfahprkcqqsjq0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

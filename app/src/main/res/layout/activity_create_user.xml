@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateUser"
+    android:background="#fadadd">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_actionbar"
+        android:background="#1818B1"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:fitsSystemWindows="true"
+        app:titleTextColor="#FFF"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add User"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/toolbar_actionbar"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="175dp"
+        android:hint="Enter Name Here"
+        android:textSize="20dp"
+        android:id="@+id/uname"
+
+
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:hint="Enter Class Here"
+        android:textSize="20dp"
+        android:id="@+id/uclass"
+
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="325dp"
+        android:hint="Enter Username"
+        android:textSize="20dp"
+        android:id="@+id/uEmail"
+
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:hint="Enter Password"
+        android:textSize="20dp"
+        android:id="@+id/upassword"
+
+        />
+
+
+    <Button
+        android:id="@+id/ucreate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/mybutton"
+        android:text="Create"
+
+        android:layout_below="@+id/upassword"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+
+
+
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>

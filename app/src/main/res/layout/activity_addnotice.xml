@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Addnotice"
+    android:background="#fadadd">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_actionbar"
+        android:background="#1818B1"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:fitsSystemWindows="true"
+        app:titleTextColor="#FFF"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Notice"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/toolbar_actionbar"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:hint="Enter Heading here"
+        android:textSize="20dp"
+        android:id="@+id/nHeading"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:hint="Enter content here"
+        android:textSize="20dp"
+        android:id="@+id/nContent"
+
+        />
+
+
+    <Button
+        android:id="@+id/nAddButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/mybutton"
+        android:text="Add"
+
+        android:layout_below="@+id/nContent"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+
+
+
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>

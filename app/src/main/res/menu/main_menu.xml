@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:visible="false"
+        />
+
+    <item android:id="@+id/search_firebase"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:visible="false"
+
+        />
+
+
+    <item android:id="@+id/upload_videos"
+        android:title="Upload Videos"
+        android:visible="false"
+        />
+
+    <item android:title="Add Notices"
+        android:id="@+id/notices_add"
+        android:visible="false"
+        />
+    <item android:title="Create User"
+        android:id="@+id/newuser"
+        android:visible="false"
+        />
+
+    <item android:title="View Profile"
+        android:id="@+id/viewprofile"
+         android:visible="false"
+        />
+
+
+
+    <item android:title="Logout"
+        android:id="@+id/logout"
+        />
+
+
+
+</menu>

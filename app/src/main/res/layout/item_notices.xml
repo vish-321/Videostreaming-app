@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:background="#adff2f"
+    android:layout_marginTop="20dp"
+
+
+    >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+
+                android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/noticeHeading"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0"
+                android:text="This is ddefault"
+                android:textStyle="bold"
+                android:textSize="21sp"
+                android:textColor="#000"
+
+
+
+
+                />
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/noticeTextView"
+                android:text="Default"
+                android:textStyle="normal"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:textColor="#000"
+
+
+
+
+                />
+
+
+                <TextView
+                    android:id="@+id/nmessage_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:layout_marginTop="5dp"
+
+                    android:text="This is ddefault"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            </LinearLayout>
+
+
+</LinearLayout>
