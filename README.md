@@ -1,4 +1,3 @@
-# Videostream
-Video streaming android application using firebase for backend , usable for high school students . It has additional features such
-as real time user profile , user authentication , Notices section and chatroom to discuss doubts . There are several additional features for
-admin such as viewing profile of any student , creating new user , adding notice , everything with real time support .
+## Videostreaming andriod application
+This video streaming Android application, designed for high school students, uses Firebase for the backend. 
+It includes features such as real-time user profiles, user authentication, a notices section, and a chatroom for discussing doubts. Additionally, admins have several features, including viewing any student's profile, creating new users, and adding notices, all with real-time support.
